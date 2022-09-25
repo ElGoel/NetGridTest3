@@ -1,0 +1,12 @@
+.toggle {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  padding: 1rem;
+  column-gap: .5rem;
+}

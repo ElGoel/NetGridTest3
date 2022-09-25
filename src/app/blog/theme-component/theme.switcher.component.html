@@ -1,0 +1,7 @@
+<div class="toggle">
+  <p>{{ !checked ? 'darkmode' : 'light mode' }}</p>
+  <mat-slide-toggle (change)="changed($event)">
+    <mat-icon>{{ mode }}</mat-icon>
+  </mat-slide-toggle>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="blog-entry">
+  <article class="blog-entry--article" *ngFor="let blogEntry of blogEntrys">
+    <img class="blog-entry--img" src="{{ blogEntry.img }}" alt="img">
+    <h1 class="blog-entry--title">{{ blogEntry.title }}</h1>
+    <p class="blog-entry--description">{{ blogEntry.description }}</p>
+    <div class="blog-entry--autor">
+      <img class="blog-entry--autorImg" src="{{ blogEntry.autoImg }}" alt="imagen autor">
+      <h3 class="blog-entry--name">{{ blogEntry.autor }}</h3>
+    </div>
+  </article>
+</div>
